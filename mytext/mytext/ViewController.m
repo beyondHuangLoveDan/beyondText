@@ -17,8 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self people];
 }
-
+-(void)people{
+    //这是我的人
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
